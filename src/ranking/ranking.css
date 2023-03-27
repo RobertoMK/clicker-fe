@@ -1,0 +1,37 @@
+.filterRow {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4vh;
+}
+
+.tableContainer{
+    width: 40vw;
+}
+
+.tableWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.tableRecords{
+    width: 40vw;
+}
+
+.backButton {
+    border-radius: 18px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    height: 7vh;
+    width: 7vw;
+    font-size: 2vh;
+    text-decoration: none;
+}

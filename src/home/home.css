@@ -1,0 +1,70 @@
+nav {
+    background-color: #000000 !important;
+}
+
+.menuSection{
+    margin-top:18px;
+    
+}
+
+#panelMenu {
+    overflow-y: scroll;
+}
+
+#panelMain {
+    display: flex;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#panelContent {
+    display: flex;
+    width: 90vw;
+    height: calc(100vh - 66px);
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.buttonTimer {
+    height: 15vh;
+    width: 15vw;
+    border-radius: 18px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+.buttonRanking{
+    height: 7vh;
+    width: 7vw;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+.title1{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.text1{
+    font-size: 18px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    background: #000000;
+    justify-content: space-between;
+}
